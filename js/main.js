@@ -171,11 +171,9 @@ const skillGroupsData = [
     title: "FRONTEND & WEB ENGINEERING",
     code: "01",
     skills: [
-      { name: "JavaScript / TypeScript", level: 90 },
+      { name: "Javascript", level: 90 },
       { name: "React · Next.js · Vue 3", level: 88 },
       { name: "HTML5 · Modern CSS3 · Tailwind", level: 95 },
-      { name: "SvelteKit · State Management", level: 84 },
-      { name: "WebGL · Three.js · Canvas", level: 80 },
       { name: "UI/UX Design · Figma Systems", level: 90 }
     ]
   },
@@ -184,10 +182,9 @@ const skillGroupsData = [
     title: "BACKEND & CLOUD ARCHITECTURE",
     code: "02",
     skills: [
-      { name: "Node.js · Express · REST APIs", level: 85 },
+      { name: "Node.js · REST APIs", level: 85 },
       { name: "Laravel · PHP · MySQL", level: 98 },
       { name: "SQL · PostgreSQL · Supabase", level: 80 },
-      { name: "Docker · CI/CD", level: 80 },
       { name: "Git · GitHub · Workflows", level: 90 },
     ]
   },
@@ -208,10 +205,8 @@ const skillGroupsData = [
     code: "04",
     skills: [
       { name: "Bahasa Indonesia (Native / Fluent)", level: 100 },
-      { name: "English (Professional Working Proficiency)", level: 86 },
       { name: "English (Technical & Documentation)", level: 90 },
       { name: "English (Spoken & Conversational)", level: 88 },
-      { name: "Sundanese (Native / Fluent)", level: 100 }
     ]
   }
 ];
