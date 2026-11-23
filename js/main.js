@@ -664,12 +664,6 @@ function setIndex(index) {
     sideNumber.textContent = (selectedIndex + 1).toString().padStart(2, "0");
   }
 
-  // Speculatively preload the selected subpage's video just in time
-  if (index === 0 && slinkBgVideo && slinkBgVideo.preload !== "auto") slinkBgVideo.preload = "auto";
-  else if (index === 1 && skillBgVideo && skillBgVideo.preload !== "auto") skillBgVideo.preload = "auto";
-  else if (index === 2 && aboutBgVideo && aboutBgVideo.preload !== "auto") aboutBgVideo.preload = "auto";
-  else if (index === 3 && contactBgVideo && contactBgVideo.preload !== "auto") contactBgVideo.preload = "auto";
-
   for (let idx = 0; idx < cachedOptionItems.length; idx++) {
     const item = cachedOptionItems[idx];
     if (idx === selectedIndex) {
@@ -815,6 +809,7 @@ function executeWavyReveal({
   }
 
   if (videoEl) {
+    videoEl.preload = "auto";
     videoEl.currentTime = 0;
     videoEl.muted = true;
     videoEl.play().catch(() => {});
@@ -1499,7 +1494,7 @@ function enterExperience(playEntrySFX = true) {
   if (menuProfileHeader) menuProfileHeader.classList.add("menu-entered");
 
   if (bgVideoIntro) {
-    if (bgVideoIntro.preload !== "auto") bgVideoIntro.preload = "auto";
+    bgVideoIntro.preload = "auto";
     bgVideoIntro.currentTime = 0;
     bgVideoIntro.muted = true;
     const playP = bgVideoIntro.play();
