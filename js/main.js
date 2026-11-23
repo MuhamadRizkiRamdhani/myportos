@@ -25,20 +25,20 @@ const options = [
     summary: "Featured applications, interactive web systems & creative experiments",
     cards: [
       {
-        title: "Persona 3 Reload Pause Menu",
-        desc: "Pixel-perfect vanilla recreation with SVG color-inversion, Web Audio SFX, and video backdrops."
+        title: "TAWON (Tangkap Wajah Online) Online Attendance System",
+        desc: "Web based facial recognition attendance system with real-time camera capture and AI-powered face detection."
       },
       {
-        title: "Persona 5 Style Portfolio",
-        desc: "Signature comic-book high-contrast red & black interactive developer showcase."
+        title: "IoN (Integrated Online Notification) Online Attendance System",
+        desc: "Web based QR code attendance system with real-time notification and camera capture QR code detection."
       },
       {
-        title: "Persona 5 Typography Playground",
-        desc: "Custom typeface exploration tool for Ransom and Solid font systems."
+        title: "SIPAKEM (Sistem Informasi Poin Aktivitas dan Kredit Mahasiswa) Academic Management System",
+        desc: "Web based application for managing student activities, points, and credits with a user-friendly interface."
       },
       {
-        title: "Modern Web App Suite",
-        desc: "High-performance responsive web applications crafted with clean code architecture."
+        title: "Waste Burden Index (WBI) Kota Bandung",
+        desc: "Machine learning model for predicting waste burden index in Bandung city using historical data and environmental factors."
       }
     ]
   },
@@ -96,7 +96,7 @@ const options = [
       },
       {
         title: "Developer Identity",
-        desc: "Ilham Ziqri: Frontend specialist crafting web interfaces that feel alive, intuitive, and memorable."
+        desc: "Muhamad Rizki Ramdhani: Frontend specialist crafting web interfaces that feel alive, intuitive, and memorable."
       }
     ]
   },
@@ -115,11 +115,11 @@ const options = [
     cards: [
       {
         title: "Direct Mail",
-        desc: "aiosssml@gmail.com: Priority channel for direct communication and collaborations."
+        desc: "rizki123.rs1@gmail.com: Priority channel for direct communication and collaborations."
       },
       {
         title: "GitHub Repository",
-        desc: "github.com/Aiosssss: Explore active source code, repos, and open-source experiments."
+        desc: "github.com/MuhamadRizkiRamdhani: Explore active source code, repos, and open-source experiments."
       }
     ]
   }
@@ -128,40 +128,40 @@ const options = [
 const slinkData = [
   {
     numeral: "I",
-    title: "P3R PORTFOLIO",
-    subtitle: "Persona 3 Reload UI & Web Audio Engine",
-    url: "#"
+    title: "TAWON (Tangkap Wajah Online)",
+    subtitle: "Online Facial Recognition Attendance System",
+    // url: "#"
   },
   {
     numeral: "II",
-    title: "PERSONA 5 PORTO",
-    subtitle: "Phantom Thieves Comic Showcase",
-    url: "../porto-persona/index.html"
+    title: "IoN (Integrated Online Notification)",
+    subtitle: "QR Code Attendance System with Real-Time Notifications",
+    // url: "../porto-persona/index.html"
   },
   {
     numeral: "III",
-    title: "P5 FONT GENERATOR",
-    subtitle: "Ransom Cutout Typography Tool",
-    url: "../persona5-font/index.html"
+    title: "SIPAKEM (Sistem Informasi Poin Aktivitas dan Kredit Mahasiswa)R",
+    subtitle: "Academic Management System for Student Activities and Credits",
+    // url: "../persona5-font/index.html"
   },
   {
     numeral: "IV",
-    title: "AIOS UTBK PLATFORM",
-    subtitle: "Neumorphic SNBT Exam Simulator",
-    url: "../aios-app/index.html"
+    title: "Waste Burden Index (WBI) Kota Bandung",
+    subtitle: "Machine Learning Model for Predicting Waste Burden Index in Bandung City",
+    // url: "../aios-app/index.html"
   },
   {
     numeral: "V",
-    title: "CREATIX AGENCY",
-    subtitle: "High-Performance Modern Web Platform",
-    url: "../web-app/index.html"
+    title: "Coming Soon: ...",
+    subtitle: "Coming Right Up...",
+    // url: "../web-app/index.html"
   }
 ];
 
 const skillTabsList = [
   { id: "frontend", code: "01", label: "FRONTEND" },
   { id: "backend", code: "02", label: "BACKEND" },
-  { id: "ai", code: "03", label: "AI & ML" },
+  { id: "ai", code: "03", label: "SYSTEM ANALYSIS & ML" },
   { id: "languages", code: "04", label: "LANGUAGES" }
 ];
 
@@ -171,12 +171,12 @@ const skillGroupsData = [
     title: "FRONTEND & WEB ENGINEERING",
     code: "01",
     skills: [
-      { name: "JavaScript / TypeScript", level: 92 },
+      { name: "JavaScript / TypeScript", level: 90 },
       { name: "React · Next.js · Vue 3", level: 88 },
       { name: "HTML5 · Modern CSS3 · Tailwind", level: 95 },
       { name: "SvelteKit · State Management", level: 84 },
       { name: "WebGL · Three.js · Canvas", level: 80 },
-      { name: "UI/UX Design · Figma Systems", level: 86 }
+      { name: "UI/UX Design · Figma Systems", level: 90 }
     ]
   },
   {
@@ -185,23 +185,21 @@ const skillGroupsData = [
     code: "02",
     skills: [
       { name: "Node.js · Express · REST APIs", level: 85 },
-      { name: "Python · FastAPI · Django", level: 82 },
+      { name: "Laravel · PHP · MySQL", level: 98 },
       { name: "SQL · PostgreSQL · Supabase", level: 80 },
-      { name: "Docker · CI/CD · Cloud Hosting", level: 76 },
+      { name: "Docker · CI/CD", level: 80 },
       { name: "Git · GitHub · Workflows", level: 90 },
-      { name: "WebSockets & Realtime Systems", level: 78 }
     ]
   },
   {
     id: "ai",
-    title: "AI & MACHINE LEARNING",
+    title: " SYSTEM ANALYSIS & MACHINE LEARNING",
     code: "03",
     skills: [
-      { name: "Prompt Engineering & Agent Swarms", level: 90 },
-      { name: "TensorFlow / PyTorch · Neural Nets", level: 82 },
-      { name: "NLP & LLM API Integrations", level: 85 },
-      { name: "Computer Vision · MediaPipe", level: 80 },
-      { name: "Vector DB & RAG Architecture", level: 84 }
+      { name: "Analytics & Data Science", level: 90 },
+      { name: "System Design & Analysis", level: 90 },
+      { name: "BPMN (Business Process Model and Notation)", level: 90 },
+      { name: "NLP (Natural Language Processing)", level: 85 },
     ]
   },
   {
@@ -212,7 +210,8 @@ const skillGroupsData = [
       { name: "Bahasa Indonesia (Native / Fluent)", level: 100 },
       { name: "English (Professional Working Proficiency)", level: 86 },
       { name: "English (Technical & Documentation)", level: 90 },
-      { name: "English (Spoken & Conversational)", level: 82 }
+      { name: "English (Spoken & Conversational)", level: 88 },
+      { name: "Sundanese (Native / Fluent)", level: 100 }
     ]
   }
 ];
@@ -282,6 +281,8 @@ const contactMailRows = document.querySelectorAll(".p3r-mail-row");
 const loadingScreen = document.getElementById("loading-screen");
 const loadingBar = document.getElementById("loading-bar");
 const loadingPercent = document.getElementById("loading-percent");
+const loadingProgress = document.querySelector(".loading-track");
+const loadingStartButton = document.getElementById("loading-start-button");
 
 // --------------------------------------------------------------------------
 // 3. Low-Latency Audio Engine (Web Audio API + Audio Pools + HTML5 Fallbacks)
@@ -290,6 +291,7 @@ let audioCtx = null;
 let sfxAudioBuffer = null;
 let closeMenuAudioBuffer = null;
 let menuUtamaAudioBuffer = null;
+const backgroundMusic = document.getElementById("background-music");
 
 const SFX_POOL_SIZE = 4;
 const sfxAudioPool = [];
@@ -300,7 +302,7 @@ let closeMenuPoolIndex = 0;
 let menuUtamaPoolIndex = 0;
 
 let hasMenuUtamaSFXPlayed = false;
-let experienceEntryTime = 0;
+let isMenuUtamaSFXPending = false;
 
 function getAudioContext() {
   if (!audioCtx) {
@@ -319,44 +321,60 @@ function getAudioContext() {
 for (let i = 0; i < 2; i++) {
   const a = new Audio("sfx/navigation.wav");
   a.preload = "auto";
-  a.volume = 0.6;
+  a.volume = 1;
   sfxAudioPool.push(a);
 
   const b = new Audio("sfx/close-menu.mp3");
   b.preload = "auto";
-  b.volume = 0.75;
+  b.volume = 1;
   closeMenuAudioPool.push(b);
 
   const c = new Audio("sfx/menu-utama.mp3");
   c.preload = "auto";
-  c.volume = 0.8;
+  c.volume = 1;
   menuUtamaAudioPool.push(c);
 }
 
 // Background buffer decoding for instantaneous hardware playback
-async function loadAudioBuffers() {
-  try {
+let audioBuffersPromise = null;
+
+function loadAudioBuffers() {
+  if (audioBuffersPromise) return audioBuffersPromise;
+
+  audioBuffersPromise = (async () => {
     const [navRes, closeRes, menuRes] = await Promise.all([
       fetch("sfx/navigation.wav"),
       fetch("sfx/close-menu.mp3"),
       fetch("sfx/menu-utama.mp3")
     ]);
-    const ctx = getAudioContext();
-    if (ctx) {
-      if (navRes.ok && !sfxAudioBuffer) {
-        const buf = await navRes.arrayBuffer();
-        sfxAudioBuffer = await ctx.decodeAudioData(buf);
-      }
-      if (closeRes.ok && !closeMenuAudioBuffer) {
-        const buf = await closeRes.arrayBuffer();
-        closeMenuAudioBuffer = await ctx.decodeAudioData(buf);
-      }
-      if (menuRes.ok && !menuUtamaAudioBuffer) {
-        const buf = await menuRes.arrayBuffer();
-        menuUtamaAudioBuffer = await ctx.decodeAudioData(buf);
-      }
+    const failedResponse = [navRes, closeRes, menuRes].find((response) => !response.ok);
+    if (failedResponse) {
+      throw new Error(`Unable to preload SFX: ${failedResponse.url} (${failedResponse.status})`);
     }
-  } catch (_) {}
+
+    const ctx = getAudioContext();
+    if (!ctx) {
+      console.warn("Web Audio API is unavailable; using HTML audio fallbacks for SFX.");
+      return false;
+    }
+
+    const [navData, closeData, menuData] = await Promise.all([
+      navRes.arrayBuffer(),
+      closeRes.arrayBuffer(),
+      menuRes.arrayBuffer()
+    ]);
+    [sfxAudioBuffer, closeMenuAudioBuffer, menuUtamaAudioBuffer] = await Promise.all([
+      ctx.decodeAudioData(navData),
+      ctx.decodeAudioData(closeData),
+      ctx.decodeAudioData(menuData)
+    ]);
+    return true;
+  })().catch((error) => {
+    console.error("SFX preload failed; HTML audio fallbacks will be used.", error);
+    return false;
+  });
+
+  return audioBuffersPromise;
 }
 if (window.innerWidth >= 1024) {
   loadAudioBuffers();
@@ -369,8 +387,9 @@ function playAudioChannel({
   pool,
   getPoolIdx,
   setPoolIdx,
-  volume = 0.6,
-  onPlaySuccess
+  volume = 1,
+  onPlaySuccess,
+  onPlayFailure
 }) {
   const ctx = getAudioContext();
   if (ctx && ctx.state === "running" && buffer) {
@@ -394,7 +413,9 @@ function playAudioChannel({
       staticEl.volume = volume;
       const p = staticEl.play();
       if (p !== undefined) {
-        p.then(() => { if (onPlaySuccess) onPlaySuccess(); }).catch(() => {});
+        p.then(() => { if (onPlaySuccess) onPlaySuccess(); }).catch((error) => {
+          if (onPlayFailure) onPlayFailure(error);
+        });
       }
       return true;
     } catch (_) {}
@@ -408,7 +429,9 @@ function playAudioChannel({
       sound.volume = volume;
       const sp = sound.play();
       if (sp !== undefined) {
-        sp.then(() => { if (onPlaySuccess) onPlaySuccess(); }).catch(() => {});
+        sp.then(() => { if (onPlaySuccess) onPlaySuccess(); }).catch((error) => {
+          if (onPlayFailure) onPlayFailure(error);
+        });
       }
       setPoolIdx((idx + 1) % pool.length);
       return true;
@@ -425,7 +448,7 @@ function playSFX() {
     pool: sfxAudioPool,
     getPoolIdx: () => sfxPoolIndex,
     setPoolIdx: (v) => { sfxPoolIndex = v; },
-    volume: 0.6
+    volume: 1
   });
 }
 
@@ -436,30 +459,51 @@ function playCloseMenuSFX() {
     pool: closeMenuAudioPool,
     getPoolIdx: () => closeMenuPoolIndex,
     setPoolIdx: (v) => { closeMenuPoolIndex = v; },
-    volume: 0.75
+    volume: 1
   });
 }
 
-async function playMenuUtamaSFX() {
-  if (hasMenuUtamaSFXPlayed) return true;
+function playMenuUtamaSFX() {
+  if (hasMenuUtamaSFXPlayed || isMenuUtamaSFXPending) return;
+  isMenuUtamaSFXPending = true;
   const ctx = getAudioContext();
   if (ctx && ctx.state !== "running") {
-    try { await ctx.resume(); } catch (_) {}
+    ctx.resume().catch(() => {});
   }
-  playAudioChannel({
+  const started = playAudioChannel({
     buffer: menuUtamaAudioBuffer,
     staticElId: "sfx-menu-utama-el",
     pool: menuUtamaAudioPool,
     getPoolIdx: () => menuUtamaPoolIndex,
     setPoolIdx: (v) => { menuUtamaPoolIndex = v; },
-    volume: 0.95,
-    onPlaySuccess: () => { hasMenuUtamaSFXPlayed = true; }
+    volume: 1,
+    onPlaySuccess: () => {
+      isMenuUtamaSFXPending = false;
+      hasMenuUtamaSFXPlayed = true;
+    },
+    onPlayFailure: () => { isMenuUtamaSFXPending = false; }
   });
-  return true;
+  if (!started) isMenuUtamaSFXPending = false;
+}
+
+function startBackgroundMusic() {
+  if (!backgroundMusic || !backgroundMusic.paused) return;
+
+  backgroundMusic.volume = 0.7;
+  const playPromise = backgroundMusic.play();
+  if (playPromise !== undefined) {
+    playPromise.catch((error) => {
+      if (error.name !== "NotAllowedError") {
+        console.warn("Background music playback failed:", error);
+      }
+    });
+  }
 }
 
 // Early Audio Unlocker on First User Gesture
 async function unlockAudioEngine() {
+  startBackgroundMusic();
+
   const ctx = getAudioContext();
   if (ctx) {
     if (ctx.state !== "running") {
@@ -475,15 +519,11 @@ async function unlockAudioEngine() {
   }
 
   if (isStarted && !hasMenuUtamaSFXPlayed) {
-    if (Date.now() - experienceEntryTime < 2500) {
-      playMenuUtamaSFX();
-    } else {
-      hasMenuUtamaSFXPlayed = true;
-    }
+    playMenuUtamaSFX();
   }
 }
 
-["pointerdown", "mousedown", "touchstart", "touchend", "click", "keydown", "focus"].forEach((evt) => {
+["pointerdown", "mousedown", "touchstart", "touchend", "click", "keydown"].forEach((evt) => {
   window.addEventListener(evt, unlockAudioEngine, { capture: true, passive: true });
 });
 
@@ -494,6 +534,7 @@ const selectorPath = "M 24.853754, 93.31573 135.14625, 49.684266 114.14751, 97.3
 const selectorBackgroundPath = "M 12.7428765,95.50088 144.25712,47.499123 116.75625,95.465764 Z";
 
 let cachedOptionItems = [];
+const optionSmallScreenQuery = window.matchMedia("(max-width: 1023px)");
 
 function renderOptions() {
   optionsList.innerHTML = "";
@@ -523,6 +564,9 @@ function renderOptions() {
       <svg
         width="950"
         height="200"
+        data-offset-x="${opt.offsetX}"
+        data-offset-y="${opt.offsetY}"
+        data-rotation="${opt.rotation}"
         xmlns="http://www.w3.org/2000/svg"
         class="option-svg"
         style="transform: translate(${opt.offsetX}px, ${opt.offsetY}px) rotate(${opt.rotation}deg);"
@@ -590,6 +634,23 @@ function renderOptions() {
 
     optionsList.appendChild(item);
     cachedOptionItems.push(item);
+  });
+
+  updateOptionViewBoxes();
+}
+
+function updateOptionViewBoxes() {
+  document.querySelectorAll(".option-svg").forEach((svg) => {
+    if (optionSmallScreenQuery.matches) {
+      svg.setAttribute("viewBox", "0 0 950 200");
+      svg.setAttribute("preserveAspectRatio", "xMidYMid meet");
+      const offsetX = window.innerWidth * 0.2 + Number(svg.dataset.offsetX) * 0.25;
+      svg.style.transform = `translate(${offsetX}px, ${Number(svg.dataset.offsetY) * 0.7}px) rotate(${svg.dataset.rotation}deg)`;
+    } else {
+      svg.removeAttribute("viewBox");
+      svg.removeAttribute("preserveAspectRatio");
+      svg.style.transform = `translate(${svg.dataset.offsetX}px, ${svg.dataset.offsetY}px) rotate(${svg.dataset.rotation}deg)`;
+    }
   });
 }
 
@@ -1355,7 +1416,7 @@ function updateProgressUI(val) {
   const rounded = Math.min(100, Math.max(0, Math.round(val)));
   if (loadingBar) loadingBar.style.width = `${rounded}%`;
   if (loadingPercent) loadingPercent.textContent = `${rounded}%`;
-  if (loadingScreen) loadingScreen.setAttribute("aria-valuenow", rounded);
+  if (loadingProgress) loadingProgress.setAttribute("aria-valuenow", rounded);
 }
 
 function runProgressTicker() {
@@ -1390,40 +1451,40 @@ async function startLoadingSequence() {
     bgVideoLoop.defaultMuted = true;
   }
 
-  // Preload audio and fonts with minimal latency
-  loadAudioBuffers();
+  // Finish decoding SFX before the loading screen reaches 100%.
+  const audioReady = loadAudioBuffers();
+  const fontsReady = (async () => {
+    try {
+      if (document.fonts && document.fonts.ready) {
+        await Promise.race([
+          document.fonts.ready,
+          new Promise((resolve) => setTimeout(resolve, 120))
+        ]);
+      }
+    } catch (error) {
+      console.warn("Font readiness check failed:", error);
+    }
+  })();
   setProgress(55);
 
-  try {
-    if (document.fonts && document.fonts.ready) {
-      await Promise.race([
-        document.fonts.ready,
-        new Promise((r) => setTimeout(r, 120))
-      ]);
-    }
-  } catch (_) {}
+  await Promise.all([audioReady, fontsReady]);
 
   setProgress(100);
   await tickerPromise;
   updateProgressUI(100);
   isLoaded = true;
-
-  await new Promise((r) => setTimeout(r, 60));
-
-  const ctx = getAudioContext();
-  if (ctx && ctx.state !== "running") {
-    ctx.resume().catch(() => {});
+  if (loadingStartButton) {
+    loadingStartButton.hidden = false;
+    loadingStartButton.focus({ preventScroll: true });
   }
-
-  enterExperience();
 }
 
-function enterExperience() {
+function enterExperience(playEntrySFX = true) {
   if (isStarted) return;
   isStarted = true;
-  experienceEntryTime = Date.now();
 
-  playMenuUtamaSFX();
+  startBackgroundMusic();
+  if (playEntrySFX) playMenuUtamaSFX();
 
   if (loadingScreen) {
     loadingScreen.classList.add("dismissed");
@@ -1451,9 +1512,20 @@ function enterExperience() {
   }
 }
 
+function startExperienceFromLoadingScreen() {
+  if (!isLoaded || isStarted) return;
+  startBackgroundMusic();
+  playMenuUtamaSFX();
+  enterExperience(false);
+}
+
 // --------------------------------------------------------------------------
 // 13. Event Listeners & Keyboard Navigation
 // --------------------------------------------------------------------------
+if (loadingStartButton) {
+  loadingStartButton.addEventListener("click", startExperienceFromLoadingScreen);
+}
+
 if (modalCloseBtn) modalCloseBtn.addEventListener("click", closeModal);
 if (modalFooterCloseBtn) modalFooterCloseBtn.addEventListener("click", closeModal);
 if (portfolioModal) {
@@ -1481,8 +1553,9 @@ if (contactMailRows && contactMailRows.length > 0) {
 // Keyboard Router
 document.addEventListener("keydown", (e) => {
   if (!isStarted) {
-    if (isLoaded || e.key === "Enter" || e.key === " ") {
-      enterExperience();
+    if (isLoaded && (e.key === "Enter" || e.key === " ")) {
+      e.preventDefault();
+      startExperienceFromLoadingScreen();
     }
     return;
   }
@@ -1575,6 +1648,12 @@ document.addEventListener("keydown", (e) => {
 // 14. Initialization & Window Exports
 // --------------------------------------------------------------------------
 renderOptions();
+window.addEventListener("resize", updateOptionViewBoxes);
+if (typeof optionSmallScreenQuery.addEventListener === "function") {
+  optionSmallScreenQuery.addEventListener("change", updateOptionViewBoxes);
+} else {
+  optionSmallScreenQuery.addListener(updateOptionViewBoxes);
+}
 
 const urlParams = new URLSearchParams(window.location.search);
 const initialSelect = parseInt(urlParams.get("select"), 10);
@@ -1598,8 +1677,9 @@ window.playWavyCircleTransition = playWavyCircleTransition;
 
 // URL Navigation Shortcuts & Responsive Init
 if (window.innerWidth < 1024) {
-  // Mobile / Small screen mode: cleanly dismiss loading HUD and exit immediately
+  // Skip the loading HUD on small screens but enter the same playable menu.
   if (loadingScreen) loadingScreen.style.display = "none";
+  enterExperience();
   window.addEventListener("resize", () => {
     if (window.innerWidth >= 1024 && !isStarted) {
       loadAudioBuffers();
@@ -1640,3 +1720,5 @@ if (window.innerWidth < 1024) {
 } else {
   startLoadingSequence();
 }
+
+startBackgroundMusic();
