@@ -1671,17 +1671,7 @@ window.triggerContactPhoneAnimation = triggerContactPhoneAnimation;
 window.playWavyCircleTransition = playWavyCircleTransition;
 
 // URL Navigation Shortcuts & Responsive Init
-if (window.innerWidth < 1024) {
-  // Skip the loading HUD on small screens but enter the same playable menu.
-  if (loadingScreen) loadingScreen.style.display = "none";
-  enterExperience();
-  window.addEventListener("resize", () => {
-    if (window.innerWidth >= 1024 && !isStarted) {
-      loadAudioBuffers();
-      startLoadingSequence();
-    }
-  }, { once: true });
-} else if (urlParams.get("page") === "project") {
+if (urlParams.get("page") === "project") {
   if (loadingScreen) loadingScreen.style.display = "none";
   isStarted = true;
   isLoaded = true;

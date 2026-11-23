@@ -986,6 +986,10 @@ body.project-screen-active .side-number {
   pointer-events: none;
 }
 
+.skill-portrait-notice {
+  display: none;
+}
+
 /* --------------------------------------------------------------------------
    Clean Wavy Circle Page Transition
    Pure GPU-accelerated clipPath wavy ripple reveal from menu text
@@ -2326,6 +2330,29 @@ body.about-screen-active .character-viewport {
   .p3r-about-left-column {
     width: 100%;
     max-width: none;
+  }
+
+  @media (orientation: landscape) {
+    #skill-page.active .skill-portrait-notice {
+      position: fixed;
+      inset: 0;
+      z-index: 30;
+      display: grid;
+      place-content: center;
+      padding: 2rem;
+      background: rgba(0, 9, 28, 0.94);
+      color: #ffffff;
+      font-family: var(--font-rodin);
+      font-size: clamp(1.25rem, 3vw, 2rem);
+      letter-spacing: 0.08em;
+      line-height: 1.5;
+      text-align: center;
+      text-transform: uppercase;
+    }
+
+    #skill-page.active .slink-bottom-hud {
+      z-index: 31;
+    }
   }
 
   .slink-profile-header {
