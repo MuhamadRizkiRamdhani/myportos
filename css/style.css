@@ -968,6 +968,13 @@ body.project-screen-active .side-number {
   pointer-events: none;
 }
 
+.skill-video-frame {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
 .slink-bg-video {
   position: absolute;
   inset: 0;
@@ -984,10 +991,6 @@ body.project-screen-active .side-number {
   background: linear-gradient(90deg, rgba(0, 15, 40, 0.18) 0%, rgba(0, 15, 40, 0.04) 50%, rgba(0, 10, 30, 0.12) 100%);
   backdrop-filter: none;
   pointer-events: none;
-}
-
-.skill-portrait-notice {
-  display: none;
 }
 
 /* --------------------------------------------------------------------------
@@ -2309,6 +2312,20 @@ body.about-screen-active .character-viewport {
     height: 100%;
   }
 
+  @media (orientation: portrait) {
+    #skill-page .skill-video-frame {
+      top: 50%;
+      right: auto;
+      bottom: auto;
+      left: 50%;
+      width: 100dvh;
+      height: 100vw;
+      object-fit: cover;
+      object-position: center center;
+      transform: translate(-50%, -50%) rotate(90deg);
+    }
+  }
+
   .p3r-slink-screen {
     height: 100vh;
     height: 100dvh;
@@ -2330,29 +2347,6 @@ body.about-screen-active .character-viewport {
   .p3r-about-left-column {
     width: 100%;
     max-width: none;
-  }
-
-  @media (orientation: landscape) {
-    #skill-page.active .skill-portrait-notice {
-      position: fixed;
-      inset: 0;
-      z-index: 30;
-      display: grid;
-      place-content: center;
-      padding: 2rem;
-      background: rgba(0, 9, 28, 0.94);
-      color: #ffffff;
-      font-family: var(--font-rodin);
-      font-size: clamp(1.25rem, 3vw, 2rem);
-      letter-spacing: 0.08em;
-      line-height: 1.5;
-      text-align: center;
-      text-transform: uppercase;
-    }
-
-    #skill-page.active .slink-bottom-hud {
-      z-index: 31;
-    }
   }
 
   .slink-profile-header {
